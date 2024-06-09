@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>滑坡灾害数据展示后台</title>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="js/jquery.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/index.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header><a href="../hpdp/daping.html">滑坡灾害数据展示大屏</a></header>
+		<div class="container m-20">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="box1">
+						<div class="title">风险系数</div>
+						<div class="box1_con" id="box1"></div>
+					</div>
+					<div class="box2 m-20">
+						<div class="title">灾害分析</div>
+						<div class="box2_con" id="box2"></div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="box3">
+						<div class="title">设备概况</div>
+						<div class="box3_con">
+							<div class="box3_con_left" id="box3_left"></div>
+							<div class="box3_con_right">
+								<div class="box3_con_right_top">
+									<div class="row">
+										<div class="col-lg-4 data_bg"><p>12569台</p><small>设备总数</small></div>
+										<div class="col-lg-4 data_bg"><p>12375台</p><small>运行设备</small></div>
+										<div class="col-lg-4 data_bg"><p>178台</p><small>月修设备</small></div>
+									</div>
+								</div>
+								<div class="box3_con_right_bot" id="box3_right"></div>
+							</div>
+						</div>
+					</div>
+					<div class="box4 m-20">
+						<div class="title">因素分析</div>
+						<div class="box4_con" id="box4"></div>
+					</div>
+				</div>
+				<div class="col-lg-3 box5">
+					<div class="title">实时检测</div>
+					<div class="box5_con">
+						<div class="box5_con_top" id="box5"></div>
+						<div class="title m-20">易发生地区</div>
+						<div class="box5_con_bot">
+							<ul>
+								<li>灾害：滑坡 东经：30.30 北纬：110.10 地区：三峡库区</li>
+								<li>灾害：滑坡 东经：34.40 北纬：108.87 地区：黄土高原</li>
+								<li>灾害：滑坡 东经：27.28 北纬：104.65 地区：云南昭通</li>
+								<li>灾害：滑坡 东经：26.46 北纬：105.06 地区：贵州毕节</li>
+								<li>灾害：滑坡 东经：29.31 北纬：95.98 地区：西藏林芝</li>
+								<li>灾害：滑坡 东经：27.28 北纬：117.77 地区：福建武夷山</li>
+								<li>灾害：滑坡 东经：29.09 北纬：111.22 地区：湖南张家界</li>
+								<li>灾害：滑坡 东经：34.46 北纬：105.35 地区：甘肃天水</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/echarts.min.js"></script>
+		<script type="text/javascript" src="js/box1.js"></script>
+		<script type="text/javascript" src="js/box2.js"></script>
+		<script type="text/javascript" src="js/box3_left.js"></script>
+		<script type="text/javascript" src="js/box3_right.js"></script>
+		<script type="text/javascript" src="js/box4.js"></script>
+		<script type="text/javascript" src="js/box5.js"></script>
+	</body>
+</html>
